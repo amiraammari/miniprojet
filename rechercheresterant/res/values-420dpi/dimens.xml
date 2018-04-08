@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="fontsize">30dp</dimen>
+    <dimen name="titre">90dp</dimen>
+    <dimen name="plas">50dp</dimen>
+    <dimen name="heighrow">200sp</dimen>
+    <dimen name="avis">18dp</dimen>
+</resources>

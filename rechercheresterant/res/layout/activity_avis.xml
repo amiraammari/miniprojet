@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_avis"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:padding="1dp"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.amira.rechercheresterant.Avis">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/f"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:gravity="center_vertical"
+                    android:text="Food"
+                    android:textColor="@color/wallet_link_text_light"
+                    android:textSize="@dimen/avis" />
+
+                <RadioGroup
+                    android:id="@+id/frg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:orientation="horizontal">
+
+
+                    <RadioButton
+                        android:id="@+id/fp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Pauvre"
+                        android:textColor="@color/wallet_link_text_light"
+                        android:textSize="@dimen/avis" />
+
+                    <RadioButton
+                        android:id="@+id/fj"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Just"
+                        android:textColor="@color/wallet_link_text_light"
+                        android:textSize="@dimen/avis" />
+
+                    <RadioButton
+                        android:id="@+id/fbien"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Bien"
+                        android:textColor="@color/wallet_link_text_light"
+                        android:textSize="@dimen/avis" />
+
+                    <RadioButton
+                        android:id="@+id/fsup"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Super"
+                        android:textColor="@color/wallet_link_text_light"
+                        android:textSize="@dimen/avis" />
+
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/s"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:gravity="center_vertical"
+                    android:text="Service"
+                    android:textColor="@color/wallet_link_text_light"
+                    android:textSize="@dimen/avis" />
+
+                <RadioGroup
+                    android:id="@+id/srg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:orientation="horizontal">
+
+
+                    <RadioButton
+                        android:id="@+id/sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Pauvre"
+                        android:textColor="@color/wallet_link_text_light"
+                        android:textSize="@dimen/avis" />
+
+                    <RadioButton
+                        android:id="@+id/sj"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Just"
+                        android:textColor="@color/wallet_link_text_light"
+                        android:textSize="@dimen/avis" />
+
+                    <RadioButton
+                        android:id="@+id/sbien"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Bien"
+                        android:textColor="@color/wallet_link_text_light"
+                        android:textSize="@dimen/avis" />
+
+                    <RadioButton
+                        android:id="@+id/ssup"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Super"
+                        android:textColor="@color/wallet_link_text_light"
+                        android:textSize="@dimen/avis" />
+
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/d"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:gravity="center_vertical"
+                    android:text="Decor"
+                    android:textColor="@color/wallet_link_text_light"
+                    android:textSize="@dimen/avis" />
+
+                <RadioGroup
+                    android:id="@+id/drg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:orientation="horizontal">
+
+
+                    <RadioButton
+                        android:id="@+id/dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Pauvre"
+                        android:textColor="@color/wallet_link_text_light"
+                        android:textSize="@dimen/avis" />
+
+                    <RadioButton
+                        android:id="@+id/dj"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Just"
+                        android:textColor="@color/wallet_link_text_light"
+                        android:textSize="@dimen/avis" />
+
+                    <RadioButton
+                        android:id="@+id/dbien"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Bien"
+                        android:textColor="@color/wallet_link_text_light"
+                        android:textSize="@dimen/avis" />
+
+                    <RadioButton
+                        android:id="@+id/dsup"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Super"
+                        android:textColor="@color/wallet_link_text_light"
+                        android:textSize="@dimen/avis" />
+
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/c"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:gravity="center_vertical"
+                    android:text="Cout"
+                    android:textColor="@color/wallet_link_text_light"
+                    android:textSize="@dimen/avis" />
+
+                <RadioGroup
+                    android:id="@+id/crg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:orientation="horizontal">
+
+
+                    <RadioButton
+                        android:id="@+id/cp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Pauvre"
+                        android:textColor="@color/wallet_link_text_light"
+                        android:textSize="@dimen/avis" />
+
+                    <RadioButton
+                        android:id="@+id/cj"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Just"
+                        android:textColor="@color/wallet_link_text_light"
+                        android:textSize="@dimen/avis" />
+
+                    <RadioButton
+                        android:id="@+id/cbien"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Bien"
+                        android:textColor="@color/wallet_link_text_light"
+                        android:textSize="@dimen/avis" />
+
+                    <RadioButton
+                        android:id="@+id/csup"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Super"
+                        android:textColor="@color/wallet_link_text_light"
+                        android:textSize="@dimen/avis" />
+
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <RatingBar
+                android:id="@+id/ratingBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:numStars="5"
+                android:padding="5dp"
+                android:rating="4.5" />
+
+            <EditText
+                android:id="@+id/nom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nom"
+                android:inputType="textPersonName"
+                android:textSize="@dimen/fontsize" />
+
+            <EditText
+                android:id="@+id/comm"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:ems="10"
+                android:gravity="top"
+                android:hint="commentaire"
+                android:inputType="textPersonName"
+                android:textSize="@dimen/fontsize" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/envoyer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="7dp"
+                    android:layout_weight="1"
+                    android:background="?android:attr/colorPressedHighlight"
+                    android:text="Envoyer"
+                    android:textColor="@color/wallet_link_text_light"
+                    android:textSize="@dimen/fontsize" />
+
+                <Button
+                    android:id="@+id/annuler"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="7dp"
+                    android:layout_weight="1"
+                    android:background="?android:attr/colorPressedHighlight"
+                    android:text="Annuler"
+                    android:textColor="@color/wallet_link_text_light"
+                    android:textSize="@dimen/fontsize" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

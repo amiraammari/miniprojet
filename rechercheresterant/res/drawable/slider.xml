@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/pizza"
+        android:duration="1000"/>
+    <item android:drawable="@drawable/salad"
+        android:duration="1000"/>
+    <item android:drawable="@drawable/sandwich"
+        android:duration="1000"/>
+    <item android:drawable="@drawable/spaghetti"
+        android:duration="1000"/>
+</animation-list>
